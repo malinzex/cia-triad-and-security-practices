@@ -447,9 +447,3 @@ Here are the tools and Windows features I explored during these exercises:
 This learning experience helped me connect some of the cybersecurity concepts I studied with practical activities.
 
 I was able to explore security tools, investigate a domain and an IP address, examine network information, test sample passwords, encrypt a file, and generate a SHA-256 hash.
-
-I also learned that cybersecurity involves continuous learning, careful investigation, and responsible use of the tools available to us.
-
-I'm documenting these activities so I can look back on what I've learned, track my progress, and build on this knowledge as I continue learning cybersecurity.
-
-**One concept at a time. One practical exercise at a time. 🚀**
