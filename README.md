@@ -108,7 +108,7 @@ I also learned that a clean result does not automatically guarantee that a websi
 
 **My screenshots:**
 
-![VirusTotal URL scan 1](screenshots/virustotal/01-virustotal-url-scan.png)
+![![VirusTotal URL scan 1](01-virustotal-url-scan.png)](screenshots/virustotal/01-virustotal-url-scan.png)
 
 ![VirusTotal URL scan 2](screenshots/virustotal/02-virustotal-url-scan.png)
 
