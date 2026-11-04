@@ -1,4 +1,4 @@
-# CIA Triad and Cybersecurity Practices 🔐
+# CIA Triad and Cybersecurity Practices
 
 *Learning About the CIA Triad and Practising Basic Cybersecurity Skills*
 
