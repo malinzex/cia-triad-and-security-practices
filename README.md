@@ -1,6 +1,6 @@
 # CIA Triad and Cybersecurity Practices 🔐
 
-## Learning About the CIA Triad and Practising Basic Cybersecurity Skills
+*Learning About the CIA Triad and Practising Basic Cybersecurity Skills*
 
 ## 1. Introduction
 
@@ -108,11 +108,11 @@ I also learned that a clean result does not automatically guarantee that a websi
 
 **My screenshots:**
 
-![![VirusTotal URL scan 1](01-virustotal-url-scan.png)](screenshots/virustotal/01-virustotal-url-scan.png)
+![VirusTotal URL scan 1](01-virustotal-url-scan.png)
 
-![VirusTotal URL scan 2](screenshots/virustotal/02-virustotal-url-scan.png)
+![VirusTotal URL scan 2](02-virustotal-url-scan.png)
 
-![VirusTotal URL scan 3](screenshots/virustotal/03-virustotal-url-scan.png)
+![VirusTotal URL scan 3](03-virustotal-url-scan.png)
 
 ### Exercise 2: Performing a WHOIS Domain Lookup
 
@@ -142,9 +142,9 @@ This exercise helped me understand how publicly available domain registration in
 
 **My screenshots:**
 
-![WHOIS domain search 1](screenshots/whois/01-whois-domain-search.png)
+![WHOIS domain search 1](01-whois-domain-search.png)
 
-![WHOIS domain search 2](screenshots/whois/02-whois-domain-search.png)
+![WHOIS domain search 2](02-whois-domain-search.png)
 
 ### Exercise 3: Checking an IP Address Reputation
 
@@ -184,7 +184,9 @@ DNS stands for Domain Name System. It helps translate human-readable domain name
 
 I opened Windows Command Prompt and entered:
 
-`nslookup google.com`
+```cmd
+nslookup google.com
+```
 
 **What I learned:**
 
@@ -194,7 +196,7 @@ I learned that `nslookup` can be useful when investigating domain resolution pro
 
 **My screenshot:**
 
-![Google DNS lookup using nslookup](screenshots/dns-lookup/01-nslookup-google-dns-lookup.png)
+![Google DNS lookup using nslookup](01-nslookup-google-dns-lookup.png)
 
 ### Exercise 5: Exploring Network Information with ipconfig and netstat
 
@@ -204,11 +206,13 @@ During my learning, I also explored two Windows commands: `ipconfig` and `netsta
 
 I wanted to understand what information they provide about a computer's network activity.
 
-**1. Using ipconfig**
+#### 1. Using ipconfig
 
 I entered:
 
-`ipconfig`
+```cmd
+ipconfig
+```
 
 I learned that this command displays network configuration information such as:
 
@@ -216,11 +220,13 @@ I learned that this command displays network configuration information such as:
 - Subnet mask.
 - Default gateway.
 
-**2. Using netstat**
+#### 2. Using netstat
 
 I entered:
 
-`netstat -an`
+```cmd
+netstat -an
+```
 
 I learned that this command displays network connections and listening ports, along with their associated addresses.
 
@@ -234,7 +240,7 @@ I also learned that `netstat` is not a command for discovering nearby devices on
 
 **My screenshot:**
 
-![Network connections using netstat](screenshots/network-connections/01-netstat-network-connections.png)
+![Network connections using netstat](01-netstat-network-connections.png)
 
 ### Exercise 6: Testing Password Strength
 
@@ -256,13 +262,13 @@ Using unique passwords for different accounts also helps reduce the damage that 
 
 I also learned that Multi-Factor Authentication provides an additional layer of account protection.
 
-**A security precaution I followed:** I used sample passwords rather than my actual personal passwords. It is important not to submit passwords currently used for personal accounts to online password-testing websites.
+A security precaution I followed: I used sample passwords rather than my actual personal passwords. It is important not to submit passwords currently used for personal accounts to online password-testing websites.
 
 **My screenshots:**
 
-![Password strength test 1](screenshots/password-strength/01-password-strength-test.png)
+![Password strength test 1](01-password-strength-test.png)
 
-![Password strength test 2](screenshots/password-strength/02-password-strength-test.png)
+![Password strength test 2](02-password-strength-test.png)
 
 ### Exercise 7: Encrypting a File Using Windows EFS
 
@@ -272,7 +278,7 @@ This was one of the practical exercises I carried out using a Windows feature.
 
 I explored how Windows EFS can be used to encrypt files and folders.
 
-I learned that EFS stands for **Encrypting File System** and is available on supported Windows editions and NTFS volumes.
+I learned that EFS stands for Encrypting File System and is available on supported Windows editions and NTFS volumes.
 
 **What I did:**
 
@@ -280,7 +286,7 @@ I learned that EFS stands for **Encrypting File System** and is available on sup
 2. Right-clicked it and opened Properties.
 3. Selected the General tab.
 4. Clicked Advanced.
-5. Selected **Encrypt contents to secure data**.
+5. Selected Encrypt contents to secure data.
 6. Applied the encryption settings.
 7. Confirmed the encryption process.
 
@@ -296,13 +302,13 @@ This exercise helped me understand how encryption can support the confidentialit
 
 **My screenshots:**
 
-![EFS file properties](screenshots/windows-efs/01-efs-file-properties.png)
+![EFS file properties](01-efs-file-properties.png)
 
-![EFS advanced attributes](screenshots/windows-efs/02-efs-advanced-attributes.png)
+![EFS advanced attributes](02-efs-advanced-attributes.png)
 
-![EFS encryption selection](screenshots/windows-efs/03-efs-encryption-selection.png)
+![EFS encryption selection](03-efs-encryption-selection.png)
 
-![EFS encryption confirmation](screenshots/windows-efs/04-efs-encryption-confirmation.png)
+![EFS encryption confirmation](04-efs-encryption-confirmation.png)
 
 ### Exercise 8: Generating a SHA-256 Hash
 
@@ -324,7 +330,9 @@ I used SHA-256, which is a cryptographic hash algorithm.
 
 **Command I used:**
 
-`certutil -hashfile "C:\Users\VictoryMalinzeX\Desktop\Essentiel\Résumé.docx" SHA256`
+```cmd
+certutil -hashfile "C:\Users\VictoryMalinzeX\Desktop\Essentiel\Résumé.docx" SHA256
+```
 
 **What I learned:**
 
@@ -338,11 +346,11 @@ I also learned an important distinction: hashing is not encryption. Hashing does
 
 **My screenshots:**
 
-![File hashing location](screenshots/file-hashing/01-hashing-file-location.png)
+![File hashing location](01-hashing-file-location.png)
 
-![SHA-256 hash command](screenshots/file-hashing/02-sha256-hash-command.png)
+![SHA-256 hash command](02-sha256-hash-command.png)
 
-![SHA-256 hash result](screenshots/file-hashing/03-sha256-hash-result.png)
+![SHA-256 hash result](03-sha256-hash-result.png)
 
 ## 5. Common Types of Cyberattacks I Learned About
 
@@ -364,12 +372,12 @@ I learned that phishing emails can be designed to look very convincing. They may
 
 Some things I should look out for include:
 
-1. Checking the sender's email address carefully.
-2. Being cautious of messages that create panic or demand urgent action.
-3. Avoiding suspicious links and unexpected attachments.
-4. Confirming unusual requests through official communication channels.
-5. Reporting suspicious messages through the appropriate channels.
-6. Asking for help when I am unsure whether a message is legitimate.
+- Checking the sender's email address carefully.
+- Being cautious of messages that create panic or demand urgent action.
+- Avoiding suspicious links and unexpected attachments.
+- Confirming unusual requests through official communication channels.
+- Reporting suspicious messages through the appropriate channels.
+- Asking for help when I am unsure whether a message is legitimate.
 
 One important lesson is that I should not allow urgency or fear to make me act without checking first.
 
@@ -393,12 +401,12 @@ I also learned about the NIST Cybersecurity Framework, which provides guidance f
 
 One thing I found interesting is that NIST CSF 2.0 has six core functions:
 
-1. **Govern:** Establish cybersecurity policies, responsibilities, strategy, and oversight.
-2. **Identify:** Understand the organization's assets, systems, and cybersecurity risks.
-3. **Protect:** Put safeguards in place to reduce cybersecurity risks.
-4. **Detect:** Identify possible cybersecurity incidents and suspicious activities.
-5. **Respond:** Take action to contain and manage cybersecurity incidents.
-6. **Recover:** Restore affected systems and services after an incident.
+- **Govern:** Establish cybersecurity policies, responsibilities, strategy, and oversight.
+- **Identify:** Understand the organization's assets, systems, and cybersecurity risks.
+- **Protect:** Put safeguards in place to reduce cybersecurity risks.
+- **Detect:** Identify possible cybersecurity incidents and suspicious activities.
+- **Respond:** Take action to contain and manage cybersecurity incidents.
+- **Recover:** Restore affected systems and services after an incident.
 
 I learned that these six functions work together to provide a structured approach to cybersecurity risk management.
 
@@ -444,4 +452,4 @@ I also learned that cybersecurity involves continuous learning, careful investig
 
 I'm documenting these activities so I can look back on what I've learned, track my progress, and build on this knowledge as I continue learning cybersecurity.
 
-**One concept at a time. One practical exercise at a time.** 🚀
+**One concept at a time. One practical exercise at a time. 🚀**
