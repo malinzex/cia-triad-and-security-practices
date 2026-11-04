@@ -2,6 +2,8 @@
 
 ## Learning About the CIA Triad and Practising Basic Cybersecurity Skills
 
+## 1. Introduction
+
 In this part of my cybersecurity learning journey, I explored the CIA Triad and learned about some of the fundamental principles used to protect information and computer systems.
 
 I didn't just want to understand the definitions; I also wanted to see how some of these concepts work in practice.
@@ -182,13 +184,17 @@ DNS stands for Domain Name System. It helps translate human-readable domain name
 
 I opened Windows Command Prompt and entered:
 
-`nslookup example.com`
+`nslookup google.com`
 
 **What I learned:**
 
 The command returned DNS information, including the DNS server used and the IP address records returned for the domain.
 
 I learned that `nslookup` can be useful when investigating domain resolution problems and checking DNS records.
+
+**My screenshot:**
+
+![Google DNS lookup using nslookup](screenshots/dns-lookup/01-nslookup-google-dns-lookup.png)
 
 ### Exercise 5: Exploring Network Information with ipconfig and netstat
 
@@ -225,6 +231,10 @@ Although both commands relate to networking, they serve different purposes.
 `ipconfig` helps me understand my computer's network configuration, while `netstat` helps me inspect network connections and listening ports.
 
 I also learned that `netstat` is not a command for discovering nearby devices on a network.
+
+**My screenshot:**
+
+![Network connections using netstat](screenshots/network-connections/01-netstat-network-connections.png)
 
 ### Exercise 6: Testing Password Strength
 
@@ -318,7 +328,7 @@ I used SHA-256, which is a cryptographic hash algorithm.
 
 **What I learned:**
 
-The command generated a unique-looking hash value for the selected document.
+The command generated a hash value for the selected document.
 
 I learned that if the file is modified, its SHA-256 hash will normally change.
 
